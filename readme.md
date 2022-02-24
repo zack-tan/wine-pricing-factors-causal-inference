@@ -47,4 +47,4 @@ As the price prediction is one of the primary focuses of this project, the main 
 In addition to the prediction modeling, random forest was used to identify feature importances. 
 
 ## Causal Analysis
-
+The team used Causal ML to investigate the Average Treatment Effect of the wine vintage (year it was produced) and the points (quality score on a 100 point scale graded by a sommelier). Two models were generated for each treatment, one using the LGBM regressor with an S-Learner, and one using a T-Learner with an XGBT regressor. The shapley plots were also generated to see how the effect of the treatments varies based on other attributes of the wine.   
