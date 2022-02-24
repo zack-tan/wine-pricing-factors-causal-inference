@@ -44,7 +44,9 @@ This column also had a very high cardinality, so the top 10 by frequency were ke
 ## Modeling
 As the price prediction is one of the primary focuses of this project, the main performance metrics for modelling were Root Mean Squared Error (RMSE) and Mean Average Error (MAE). Basic linear regression, decision tree, random forest, gradient boosting, support vector machine and multi-layer perceptron (MLP) regression models were trained and evaluated based on the performance metrics outlined above as well as runtimes. 
 
-In addition to the prediction modeling, random forest was used to identify feature importances. 
+In addition to the prediction modeling, random forest was used to identify feature importances.
+
+### Model Refinement
 
 ## Causal Analysis
 The team used Causal ML to investigate the Average Treatment Effect of the wine vintage (year it was produced) and the points (quality score on a 100 point scale graded by a sommelier). Two models were generated for each treatment, one using the LGBM regressor with an S-Learner, and one using a T-Learner with an XGBT regressor. The shapley plots were also generated to see how the effect of the treatments varies based on other attributes of the wine.   
