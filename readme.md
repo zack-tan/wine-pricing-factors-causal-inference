@@ -19,7 +19,7 @@ The dataset used for this project along with a description of the variables can 
 The team performed an in-depth analysis of the dataset. This included checking for missing values, correlation between variables, and visualizing the distribution of variables along with their relationship with price. The team also checked the level of cardinality (number of unique instances) of the dataset. 
 
 ## Data Pre-processing
-This section will provide a high level overview of the pre-processing steps taken with each of the variables in the dataset. A pipeline for each variable was built and then combined into one larger pipeline that handles the pre-processing for the entire dataset. Data pre-processing is a crucial and necessary step in the prediction process as it can drastically improve improve model performance. 
+This section will provide a high level overview of the pre-processing steps taken with each of the variables in the dataset. A pipeline for each variable was built and then combined into one larger pipeline that handles the pre-processing for the entire dataset. The team also investigated using min-max scaling and standard z-score scaling prior to feeding the pre-processed data to the prediction models, and found that z-score performed better across the board. Data pre-processing is a crucial and necessary step in the prediction process as it can drastically improve improve model performance. 
 
 ### Description
 
@@ -42,6 +42,9 @@ These columns had a very high cardinality, the top 20 by frequency were kept wit
 This column also had a very high cardinality, so the top 10 by frequency were kept with the rest being mapped to 'Other'.
 
 ## Modeling
+As the price prediction is one of the primary focuses of this project, the main performance metrics for modelling were Root Mean Squared Error (RMSE) and Mean Average Error (MAE). Basic linear regression, decision tree, random forest, gradient boosting, support vector machine and multi-layer perceptron (MLP) regression models were trained and evaluated based on the performance metrics outlined above as well as runtimes. 
+
+In addition to the prediction modeling, random forest was used to identify feature importances. 
 
 ## Causal Analysis
 
