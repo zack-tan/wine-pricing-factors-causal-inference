@@ -1,3 +1,20 @@
+# Team Profile
+
+## Product Owners/Project Managers
+- Zhi Cheng (Zack) Tan ; @ZCTan762
+- Matthew Lundrigan ; @mattlundrigan
+
+## Data Analysts
+- Ziye Zhang ; @ZZYActSci
+- Gautami Edara ; @gautamiedara
+- Erik Moore ; @moorerik
+
+## Data Scientists
+- Kelly Agnew ; @kelly-agnew
+- Vaibhav Vishal ; @vvaibhav11
+- Jiahua Liang ; @Jhliang3
+
+
 # Business Cases
 
 ## Finding the factors that affect wine prices (Stakeholders - Vineyard)
@@ -48,23 +65,10 @@ In addition to the prediction modeling, random forest was used to identify featu
 
 ### Model Refinement
 
+The team used GridSearchCV and RandomSearchCV on the two most promising algorithms (Random Forest and Gradient Boosting) to determine the optimal hyperparameters. Due to the size of the dataset and computing constraints, smaller grids were used for this optimization process. 
+
 ## Causal Analysis
 The team used Causal ML to investigate the Average Treatment Effect of the wine vintage (year it was produced) and the points (quality score on a 100 point scale graded by a sommelier). Two models were generated for each treatment, one using the LGBM regressor with an S-Learner, and one using a T-Learner with an XGBT regressor. The shapley plots were also generated to see how the effect of the treatments varies based on other attributes of the wine.   
 
 
 
-# Team Profile
-
-## Product Owners/Project Managers
-- Zhi Cheng (Zack) Tan ; @ZCTan762
-- Matthew Lundrigan ; @mattlundrigan
-
-## Data Analysts
-- Ziye Zhang ; @ZZYActSci
-- Gautami Edara ; @gautamiedara
-- Erik Moore ; @moorerik
-
-## Data Scientists
-- Kelly Agnew ; @kelly-agnew
-- Vaibhav Vishal ; @vvaibhav11
-- Jiahua Liang ; @Jhliang3
