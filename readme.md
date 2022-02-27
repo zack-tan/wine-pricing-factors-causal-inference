@@ -1,3 +1,20 @@
+# Team Profile
+
+## Product Owners/Project Managers
+- Zhi Cheng (Zack) Tan ; @ZCTan762
+- Matthew Lundrigan ; @mattlundrigan
+
+## Data Analysts
+- Ziye Zhang ; @ZZYActSci
+- Gautami Edara ; @gautamiedara
+- Erik Moore ; @moorerik
+
+## Data Scientists
+- Kelly Agnew ; @kelly-agnew
+- Vaibhav Vishal ; @vvaibhav11
+- Jiahua Liang ; @Jhliang3
+
+
 # Business Cases
 
 ## Finding the factors that affect wine prices (Stakeholders - Vineyard)
@@ -55,18 +72,3 @@ The team used Causal ML to investigate the Average Treatment Effect of the wine 
 
 
 
-# Team Profile
-
-## Product Owners/Project Managers
-- Zhi Cheng (Zack) Tan ; @ZCTan762
-- Matthew Lundrigan ; @mattlundrigan
-
-## Data Analysts
-- Ziye Zhang ; @ZZYActSci
-- Gautami Edara ; @gautamiedara
-- Erik Moore ; @moorerik
-
-## Data Scientists
-- Kelly Agnew ; @kelly-agnew
-- Vaibhav Vishal ; @vvaibhav11
-- Jiahua Liang ; @Jhliang3
