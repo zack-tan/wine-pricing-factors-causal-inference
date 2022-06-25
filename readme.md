@@ -1,23 +1,23 @@
 # Team Profile
 
 ## Product Owners/Project Managers
-- Zhi Cheng (Zack) Tan ; @ZCTan762
-- Matthew Lundrigan ; @mattlundrigan
+- [Zack Tan](https://bit.ly/github-zack)
+- [Matthew Lundrigan](https://github.com/mattlundrigan)
 
 ## Data Analysts
-- Ziye Zhang ; @ZZYActSci
-- Gautami Edara ; @gautamiedara
-- Erik Moore ; @moorerik
+- [Ziye Zhang](https://github.com/ZZYActSci)
+- [Gautami Edara](https://github.com/gautamiedara)
+- [Erik Moore](https://github.com/moorerik)
 
 ## Data Scientists
-- Kelly Agnew ; @kelly-agnew
-- Vaibhav Vishal ; @vvaibhav11
-- Jiahua Liang ; @Jhliang3
+- [Kelly Agnew](https://github.com/kelly-agnew)
+- [Vaibhav Vishal](https://github.com/vvaibhav11) 
+- [Jiahua Liang](https://github.com/jhliang3)
 
 
 # Business Cases
 
-## Finding the factors that affect wine prices (Stakeholders - Vineyard)
+## Identifying the factors that affect wine prices (Stakeholders - Vineyard)
 Use prediction modelling to identify the type of grapes vineyard owners should grow in order to maximize profit and meet market demands, taking into account their country and climate. 
 
 ## Inventory Management & Pricing (Stakeholders - Retailers)
@@ -69,6 +69,3 @@ The team used GridSearchCV and RandomSearchCV on the two most promising algorith
 
 ## Causal Analysis
 The team used Causal ML to investigate the Average Treatment Effect of the wine vintage (year it was produced) and the points (quality score on a 100 point scale graded by a sommelier). Two models were generated for each treatment, one using the LGBM regressor with an S-Learner, and one using a T-Learner with an XGBT regressor. The shapley plots were also generated to see how the effect of the treatments varies based on other attributes of the wine.   
-
-
-
